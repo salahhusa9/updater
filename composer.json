@@ -1,0 +1,28 @@
+{
+    "name": "selehhusa9/updater",
+    "type": "project",
+    "description": "Update My laravel Project.",
+    "keywords": ["framework", "laravel" , "self-update" , "update-laravel" , "update"],
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "salahhusa9\\updater\\src\\UpdaterServiceProvider"
+
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salah eddine bendyab",
+            "email": "salah.eddine@bendyab.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
