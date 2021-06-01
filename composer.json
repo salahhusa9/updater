@@ -11,8 +11,11 @@
     "extra": {
         "laravel" : {
             "providers" : [
-                "salahhusa9\\updater\\src\\UpdaterServiceProvider"
+                "Project\\UpdaterServiceProvider"
 
+            ],
+            "dont-discover": [
+                "laravel/dusk"
             ]
         }
     },
