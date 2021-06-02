@@ -1,6 +1,6 @@
 <?php
 
-namespace Project;
+namespace Project\Updater;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Artisan;

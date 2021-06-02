@@ -5,13 +5,13 @@
     "keywords": ["framework", "laravel" , "self-update" , "update-laravel" , "update"],
     "config": {
         "optimize-autoloader": true,
-        "preferred-install": "dist",
+        "preferred-install": "dev",
         "sort-packages": true
     },
     "extra": {
         "laravel" : {
             "providers" : [
-                "Project\\UpdaterServiceProvider"
+                "Project\\Updater\\UpdaterServiceProvider"
 
             ],
             "dont-discover": [
