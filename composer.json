@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "salahhusa9\\updater\\": "src/"
+            "Project\\": "src/"
         }
     },
     "license": "MIT",
