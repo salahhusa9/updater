@@ -11,12 +11,17 @@
     "extra": {
         "laravel" : {
             "providers" : [
-                "Project\\UpdaterServiceProvider\\UpdaterServiceProvider"
+                "Project\\UpdaterServiceProvider"
 
             ],
             "dont-discover": [
                 "laravel/dusk"
             ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "salahhusa9\\updater\\": "src/"
         }
     },
     "license": "MIT",
