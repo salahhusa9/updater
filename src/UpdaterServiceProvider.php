@@ -3,7 +3,6 @@
 namespace Project;
 
 use Illuminate\Support\ServiceProvider;
-use Updater\Commands\CheckForUpdate;
 
 class UpdaterServiceProvider extends ServiceProvider{
 
