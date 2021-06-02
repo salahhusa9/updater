@@ -1,6 +1,6 @@
 <?php
 
-namespace Project\Updater;
+namespace Project;
 
 use Illuminate\Support\ServiceProvider;
 use Updater\Commands\CheckForUpdate;

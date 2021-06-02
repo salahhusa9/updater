@@ -11,7 +11,7 @@
     "extra": {
         "laravel" : {
             "providers" : [
-                "Project\\Updater\\UpdaterServiceProvider"
+                "Project\\Updater"
 
             ],
             "dont-discover": [
