@@ -1,6 +1,6 @@
 <?php
 
-namespace Updater\Commands;
+namespace Project;
 
 use Codedge\Updater\UpdaterManager;
 use Illuminate\Console\Command;
