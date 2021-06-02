@@ -28,7 +28,7 @@ class CheckForUpdate extends Command
      * @param UpdaterManager $updater
      */
     // public function __construct(UpdaterManager $updater)
-    public function __construct(UpdaterManager $updater)
+    public function __construct()
     {
         parent::__construct();
         // $this->updater = $updater;
