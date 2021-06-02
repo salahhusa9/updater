@@ -10,9 +10,7 @@ class CheckForUpdate extends Command
     /**
      * @var string
      */
-    protected $signature = 'updater:check-for-update
-                            {--prefixVersionWith= : Prefix the currently installed version with something.}
-                            {--suffixVersionWith= : Suffix the currently installed version with something.}';
+    protected $signature = 'updater:check-for-update';
 
     /**
      * @var string
@@ -22,17 +20,18 @@ class CheckForUpdate extends Command
     /**
      * @var UpdaterManager
      */
-    protected $updater;
+    // protected $updater;
 
     /**
      * CheckForUpdate constructor.
      *
      * @param UpdaterManager $updater
      */
+    // public function __construct(UpdaterManager $updater)
     public function __construct(UpdaterManager $updater)
     {
         parent::__construct();
-        $this->updater = $updater;
+        // $this->updater = $updater;
     }
 
     /**
