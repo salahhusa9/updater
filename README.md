@@ -37,7 +37,7 @@ For edit config file or view :
  
  2. [GITHUB PRIVATE ACCESS TOKEN](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
  
- 3. Create a first version in github 1.0.0
+ 3. Create a first version in github Tag : 1.0.0
  4. Env :
     ```env
     SELF_UPDATER_VERSION_INSTALLED=1.0.0
