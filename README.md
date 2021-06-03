@@ -7,11 +7,7 @@ This package is for updating your Laravel project via view without doing any com
 
 When you do any "Release and TAG " a new update will appear
 
-# How to use :
-
-  
-
-## Install :
+# Install :
 
   
 
@@ -67,6 +63,11 @@ For edit config file or view :
     
     Response :
     > There\'s no new version available.
+
+# How to use :
+
+    Enter to :
+   [youdomain/update](http://127.0.0.1:8000/update)
 
 ## Config :
 
