@@ -66,7 +66,7 @@ For edit config file or view :
 
 # How to use :
 
-    Enter to :
+Enter to :
    [youdomain/update](http://127.0.0.1:8000/update)
 
 ## Config :
